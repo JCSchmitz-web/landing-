@@ -1,0 +1,177 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Banner */
+.banner {
+      background-image: url("Pictures/yatch.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px;
+
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.banner p {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.banner a.btn-blue {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background-color: navy;
+  border-radius: 30px;
+  padding: 15px 40px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.banner a.btn-blue:hover {
+  background-color: #fff; 
+  color: navy; 
+}
+
+/* Features */
+.card-white {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-white img {
+  margin-bottom: 30px;
+  width: 100%; 
+  max-height: 300px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+} 
+}
+
+.card-white h2 {
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.card-white p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer {
+  background-color: #002366;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.footer ul.list-inline {
+  margin-bottom: 0;
+}
+
+.footer ul.list-inline li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer ul.list-inline li:last-child {
+  margin-right: 0;
+}
+
+.footer ul.list-inline li a {
+  font-size: 20px;
+  color: #fff;
+  transition: color 0.3s ease; 
+}
+
+.footer ul.list-inline li a:hover {
+  color: #888; 
+}
+
+/* Apply Section */
+#apply-section {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#apply-section button {
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #0445AF;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 0 33px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+#apply-section button:hover {
+  background-color: navy;
+  color: #fff; 
+}
+
